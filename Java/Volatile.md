@@ -1,4 +1,4 @@
-## - Volatile
+# Volatile
 volatile은 Java변수를 Main Memory에 저장하겠다고 명시하는 것이다. 이렇게 하면 매번 변수의 값을 read할 때 CPU cache에 저장된 값이 아닌 Main Memory에서 읽는다. 또한, 변수의 값을 write할 때마다 Main Memory에 까지 작성한다.  
 
 - 사용이유
